@@ -22,7 +22,7 @@ please rename the first columns e.g. to ``protected_sex`` and ``target_credit_Sc
 
 ### Prerequisites
 
-* python version 3.5
+* python version 3.5+
 * dataset to examine in csv format with features as described [above](##Getting Started)
 
 <!--maybe put python version checker for unix and windows terminal?

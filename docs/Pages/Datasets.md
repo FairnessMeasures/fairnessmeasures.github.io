@@ -4,11 +4,11 @@ We collect datasets from various sources and prepare them taking into account a 
 
 | Dataset                          	                            | Attribute/Score 	| # Entries 	| Format |
 |----------------------------------	                            |-------------------	|-----------	|--------|
-| [COMPAS Recidivism Risk](/Pages/Datasets/Compas.html)           	| recidivism        	| 18K    	    | csv |
-| [Statlog (German Credit -SCHUFA)](/Pages/Datasets/Schufa.html) 	| credit rating     	| 1k        	| csv |
-| [SAT](/Pages/Datasets/SAT.html)                              	| test score        	| 1,6 k 	    | csv, pdf |
-| [PSU-Chile](/Pages/Datasets/SATChile.html)                       | test score            | 2,9 M         | csv |
-| [Adult Census](/Pages/Datasets/censusincome.html)               | income                | 48,8 k        | csv |
-| [SOEP](/Pages/Datasets/SOEP.html)               | multiple                | depending on wave       | multiple |
+| [COMPAS Recidivism Risk](/Pages/DatasetPages/Compas.html)           	| recidivism        	| 18K    	    | csv |
+| [Statlog (German Credit -SCHUFA)](/Pages/DatasetPages/Schufa.html) 	| credit rating     	| 1k        	| csv |
+| [SAT](/Pages/DatasetPages/SAT.html)                              	| test score        	| 1,6 k 	    | csv, pdf |
+| [PSU-Chile](/Pages/DatasetPages/SATChile.html)                       | test score            | 2,9 M         | csv |
+| [Adult Census](/Pages/DatasetPages/censusincome.html)               | income                | 48,8 k        | csv |
+| [SOEP](/Pages/DatasetPages/SOEP.html)               | multiple                | depending on wave       | multiple |
 
-If you have a dataset that you would like to contribute, either [upload it to our repository](https://github.com/megantosh/fairness_measures/tree/Upload/Drop%20Box)  or [get in touch with us](mailto:meike.zehlike@tu-berlin.de?Subject=Fairness%20measure%20contributed%20dataset).
+If you have a dataset that you would like to contribute, please [get in touch with us](mailto:meike.zehlike@tu-berlin.de?Subject=Fairness%20measure%20contributed%20dataset).

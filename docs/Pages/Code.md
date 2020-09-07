@@ -3,7 +3,7 @@
 -->
 
 <ul>
-    <li> [view on Github](https://github.com/megantosh/fairness_measures/tree/master/src) </li>
+    <li> [view on Github](https://github.com/FairnessMeasures/fairness-measures-code) </li>
 </ul>
 
 

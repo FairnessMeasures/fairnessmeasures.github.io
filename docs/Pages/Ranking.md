@@ -1,4 +1,4 @@
-# Fairness Ranking Algorithms
+# Fair Ranking Algorithms
 It is crucial that the decision-making algorithms are fair, that they do not systematically 
 transmit or amplify the already existing biases in today's society. Researchers in the field of 
 fairness algorithms have provided various possible ranking algorithms. We cite a few examples

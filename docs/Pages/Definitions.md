@@ -33,6 +33,15 @@ This consists of rules or procedures that, while not explicitly mentioning discr
 attributes, intentionally or unintentionally could generate discriminatory decisions. 
 It exists due to the correlation of the non-discriminatory items with the discriminatory ones.
 
+## Fairness Algorithms
+### Fair Ranking Algorithms
+This type of algorithms is typically used to find the most suitable way of odering items.
+It is useful when a query is large, since most people will not scan through the entire list.
+
+### Fair Classification Algorithms
+This type of algorithms tackles the problem of classification subject to 
+fairness constraints with respect to pre-defined senstive attributes such as race or gender.
+
 ### References
 
 These definitions of fairness can be found in following literature:

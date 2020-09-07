@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: [Fairness Measures]
+description: [Datasets and software for detecting algorithmic discrimination]
+show_downloads: ["false"]
+google_analytics: [UA-101054904-1]

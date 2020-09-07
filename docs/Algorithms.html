@@ -14,6 +14,12 @@
     <meta name="description" content="A Fairness Benchmarking Tool for Machine Learning"/>
     <meta name="robots" content="index/follow">
 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedMenu").load("menu.html"); 
+    });
+  </script> 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -42,20 +48,8 @@
 
         <!--</ul>...-->
 
+        <div id="includedMenu"></div>
 
-        <menu style="list-style: none; padding: 0;
-              list-style-type: none;">
-            <p><a href="http://www.fairness-measures.org">Home</a></p>
-             <!--{<p><a href="https://citlab.github.io/fairness_measures_website/blob/master/docs/Pages/Definitions">Definitions</a></p> }-->
-            <p><a href="Definition.html">Definitions</a></p>
-            <p><a href="Algorithms.html">Algorithms</a></p>
-            <p><a href="measures.html">Measures</a></p>
-            <p><a href="Datasets.html">Datasets</a></p>
-             <p><a href="http://fairness-measures.org/Pages/Videos">Videos</a></p>
-            <p><a href="https://github.com/megantosh/fairness_measures_code/tree/master" target="_blank">Code (on
-                GitHub)</a> &#128279;</p>
-            <p><a href="{{ site.github.baseurl }}/Pages/About.html">About</a></p>
-        </menu>
         <!--{% endif %}-->
 
     </header>

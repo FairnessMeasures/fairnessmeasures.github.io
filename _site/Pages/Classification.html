@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang=" en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title> Fairness Measures - Detecting Algorithmic Discrimination</title>
+
+    <link rel="stylesheet"
+          href="/assets/css/style.css?v=638069990a084005bd9f64127b5b8efbb7ab2e4c">
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="keywords"
+          content="algorithmic bias, algorithmic fairness, fairness benchmarking, dataset, machine learning, discrimination discovery"/>
+    <meta name="description" content="A Fairness Benchmarking Tool for Machine Learning"/>
+    <meta name="robots" content="index/follow">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="http://localhost:4000">Fairness Measures</a></h1>
+            <p>Datasets and Software for Detecting Algorithmic Discrimination</p>
+
+            <menu style="list-style: none; padding: 0;
+            list-style-type: none;">
+                <p><a href="http://localhost:4000">Home</a></p>
+                <p><a href="http://localhost:4000/Pages/Definitions">Definitions</a></p>
+                <p><a href="http://localhost:4000/Pages/Ranking">Ranking Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Classification">Classification Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Datasets">Datasets</a></p>
+                <p><a href="http://localhost:4000/Pages/Videos">Videos</a></p>
+                <p><a href="https://github.com/FairnessMeasures/fairness-measures-code" target="_blank">Code (on
+                GitHub)</a> &#128279;</p>
+                <p><a href="http://localhost:4000/Pages/About">About</a></p>
+            </menu>
+
+        </header>
+        <section>
+            <img src="http://localhost:4000/Resources/Hero.svg" alt="Header">
+            </br></br></br>
+
+            <h1 id="fairness-classification-algorithms">Fairness Classification Algorithms</h1>
+<p>There are circumstances in which the output is binary. Take for example, the output by bail decisions
+would be either ‘jail’ or ‘release’. This kind of algorithm falls into the category of classification.
+You may find a classification algorithm implementing the following measures on our 
+<a href="https://github.com/megantosh/fairness_measures_code/tree/master">GitHub repository</a>. To be consistent with 
+convention, <strong>positive outcome</strong> is considered as the desired one for a certain candidate in a group, 
+e.g. being granted a loan given a certain credit score (<strong>target score</strong>).</p>
+
+<h2 id="absolute-measures">Absolute Measures</h2>
+
+<h3 id="mean-difference">Mean Difference</h3>
+<p>The difference between the target score mean values of the protected vs. unprotected groups.
+<em>No difference = no discrimination</em></p>
+
+<h3 id="normalized-difference">Normalized Difference</h3>
+<p>The mean difference for binary classification normalized by the rate of positive outcomes.
+<em>At a given positive outcome rate, maximum possible discrimination is taken into account</em></p>
+
+<h3 id="impact-ratio">Impact Ratio</h3>
+<p>The ratio of positive outcomes for the protected group over the non-protected group.</p>
+
+<h3 id="odds-ratio">Odds Ratio</h3>
+<p>The association between exposure and outcome</p>
+
+<h2 id="statistical-tests">Statistical Tests</h2>
+
+<h3 id="difference-of-means-aka-welch-test">Difference of Means <em>a.k.a. Welch-Test</em></h3>
+<p>For a null hypothesis that the <strong>means of the two groups</strong> (protected and non-protected) are equal.</p>
+<h3 id="difference-in-proportions-for-two-groups-aka-fishers-exact-test">Difference in proportions for two groups <em>a.k.a. Fisher’s exact test</em></h3>
+<p>For a null hypothesis that the <strong>rates of positive outcomes</strong> within the two groups are equal.</p>
+
+<h2 id="references">References</h2>
+<p>Measures above can be found in the following paper: 
+Žliobaitė, Indrė. “<a href="https://link.springer.com/article/10.1007%2Fs10618-017-0506-1">Measuring discrimination in algorithmic decision making</a>” Data Mining and Knowledge Discovery 31, no. 4 (July 31, 2017): 1060-089. doi:10.1007/s10618-017-0506-1. 
+ <i><a href="https://citation-needed.springer.com/v2/references/10.1007/s10618-017-0506-1?format=bibtex&amp;flavour=citation">bibtex</a></i></p>
+
+
+        </section>
+        <footer>
+            <p>
+                <a href="http://www.upf.edu/"><img hspace="2" src="http://localhost:4000/Resources/upf_logo.png"
+                        style="height: 30px; margin: 4px;" alt="UPF logo"></a>
+                <a href="http://www.cit.tu-berlin.de"><img hspace="2" src="http://localhost:4000/Resources/tu_logo.png"
+                        style="height: 30px; margin: 4px;" alt="TU Berlin logo"></a>
+            </p>
+            <!--
+            <p>This project is maintained by <a href="https://github.com/MilkaLichtblau"> Meike Zehlike </a> and <a href="http://github.com/FairnessMeasures">Mohamed Megahed</a></p>
+            -->
+            <p>
+                <small>All content available under a <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0 license</a> unless specified otherwise. 
+                    <script>document.write(new Date().getFullYear())</script>
+                </small>
+            </p>
+        </footer>
+    </div>
+
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101054904-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+</body>
+</html> 

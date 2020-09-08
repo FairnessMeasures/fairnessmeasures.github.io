@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang=" en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title> Fairness Measures - Detecting Algorithmic Discrimination</title>
+
+    <link rel="stylesheet"
+          href="/assets/css/style.css?v=638069990a084005bd9f64127b5b8efbb7ab2e4c">
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="keywords"
+          content="algorithmic bias, algorithmic fairness, fairness benchmarking, dataset, machine learning, discrimination discovery"/>
+    <meta name="description" content="A Fairness Benchmarking Tool for Machine Learning"/>
+    <meta name="robots" content="index/follow">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="http://localhost:4000">Fairness Measures</a></h1>
+            <p>Datasets and Software for Detecting Algorithmic Discrimination</p>
+
+            <menu style="list-style: none; padding: 0;
+            list-style-type: none;">
+                <p><a href="http://localhost:4000">Home</a></p>
+                <p><a href="http://localhost:4000/Pages/Definitions">Definitions</a></p>
+                <p><a href="http://localhost:4000/Pages/Ranking">Ranking Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Classification">Classification Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Datasets">Datasets</a></p>
+                <p><a href="http://localhost:4000/Pages/Videos">Videos</a></p>
+                <p><a href="https://github.com/FairnessMeasures/fairness-measures-code" target="_blank">Code (on
+                GitHub)</a> &#128279;</p>
+                <p><a href="http://localhost:4000/Pages/About">About</a></p>
+            </menu>
+
+        </header>
+        <section>
+            <img src="http://localhost:4000/Resources/Hero.svg" alt="Header">
+            </br></br></br>
+
+            <h1 id="psu-chile">PSU (Chile)</h1>
+
+<p>Results on the “Prueba de Selección Universitaria” (University Selection Test) and data about admissions to universities in Chile for 2004-2016.</p>
+
+<p><b>Data Types:</b> Multivariate</p>
+
+<p><b>Default Task:</b> Classification</p>
+
+<p><b>Attribute Types:</b> Categorical, Integer, Real</p>
+
+<p><b>Format:</b> csv</p>
+
+<p><b>Number of Entries:</b> 2983093</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2004</td>
+      <td>159123</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>176680</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>182761</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>242153</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>240850</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>277420</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>285322</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>289244</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>280049</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>280506</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>278736</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>290249</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b>Number of Attributes:</b>  166</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><b>Source:</b> [Prueba Selección Universitaria - Chilean University Test</td>
+      <td>Departamento de Evaluación, Medición y Registro Educacional (DEMRE)](http://psu.demre.cl)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="statistics">Statistics</h2>
+
+<p><b>Attributes:</b></p>
+<ul>
+  <li>Number</li>
+  <li>Admission for the academic year</li>
+  <li>Nationality</li>
+  <li>Gender</li>
+  <li>High school code</li>
+  <li>Teaching establishment code enrollee</li>
+  <li>Geo - Region educational establishment (registration)</li>
+  <li>Geo - State educational establishment (registration)</li>
+  <li>Geo - Municipality educational establishment (registration)</li>
+  <li>regime educational establishment</li>
+  <li>Year which graduated from the Media Education</li>
+  <li>Day of birth registered</li>
+  <li>Month of birth registered</li>
+  <li>Year of birth registered</li>
+  <li>registered civil status</li>
+  <li>Does enrolled have paid work?</li>
+  <li>Enrollee work hours</li>
+  <li>Number of hours devoted to work</li>
+  <li>If continuing to study applicant will live where</li>
+  <li>Number of people who make up the family group enrolled</li>
+  <li>Number of persons in the household working enrollee</li>
+  <li>Who is the head of household enrollee</li>
+  <li>Primary funding studies enrolled</li>
+  <li>secondary financing studies enrolled</li>
+  <li>bNumber of household members enrollee who study: Pre - Basic</li>
+  <li>Number of household members of enrolled studying: Basic Education</li>
+  <li>Number of household members enrolled studying the Education Media (from I to III means),</li>
+  <li>Number of household members enrollee who study: Media Education (IV medium)</li>
+  <li>Number of household members of enrolled studying: Higher Education (Tertiary)</li>
+  <li>Number of household members who study enrollee: Other</li>
+  <li>gross monthly household income enrollee (income deciles)</li>
+  <li>Inscribed health coverage</li>
+  <li>Inscribed parent education</li>
+  <li>Education of mother</li>
+  <li>occupational status of father</li>
+  <li>occupational status of mother</li>
+  <li>Type of organism working the father of registered</li>
+  <li>Type of organism working mother enrolled</li>
+  <li>Main occupation of father</li>
+  <li>Main occupation of mother</li>
+  <li>Economic activity working father</li>
+  <li>Economic activity working mother</li>
+  <li>Region (Address)</li>
+  <li>Province Code (Address)</li>
+  <li>Commune code (Address)</li>
+  <li>Enrolled as reported by the Ministry of Education shortlisted Academic Excellence Scholarship (BEA) at the time of registration</li>
+  <li>Enrolled informed PACE</li>
+  <li>Code that identifies the higher education institution to which belonged the registered the previous academic year (if applicable)</li>
+  <li>Admission process involved the registered</li>
+  <li>Educational status of student graduation</li>
+  <li>Graduate education branch</li>
+  <li>informed by the Ministry of Education as a shortlisted candidate Academic Excellence Scholarship (BEA) at the time of surrender</li>
+  <li>Enabled postulant to study pedagogies</li>
+  <li>GPA High School Education 3 digits (ROL = decimal integer decimal).</li>
+  <li>NEM score (standardized score assigned to the GPA)</li>
+  <li>Ranking Points (translation of NEM into SAT points depending on a formula related to different types of high school)</li>
+  <li>Percentile Language and Mathematics current</li>
+  <li>Language test score (Actual)</li>
+  <li>Math test score (Actual)</li>
+  <li>Test score History, Geography and Social Sciences (Current)</li>
+  <li>Science Test score (Actual)</li>
+  <li>Module rendered Science Test</li>
+  <li>Percentile Language and Mathematics previous</li>
+  <li>mandatory testing standard score Language (Previous)</li>
+  <li>Math test score standard mandatory (Previous)</li>
+  <li>Standard Test score History, Geography and Social Sciences (Previous)</li>
+  <li>Standard Test score Sciences (Previous)</li>
+  <li>Rendered Science test module (Previous)</li>
+  <li>Admission Academic Year (Nomination)</li>
+  <li>general situation of the applicant</li>
+</ul>
+
+<p>…(further Details listed in Dataset)</p>
+
+<h2 id="how-to-obtain-this-dataset">How to obtain this dataset?</h2>
+
+<p>This dataset is not available for public download. If you are interested in obtaining it, <a href="http://ayuda.demre.cl/forminvestigador.dmr">please get in touch with the dataset provider</a>.</p>
+
+
+
+        </section>
+        <footer>
+            <p>
+                <a href="http://www.upf.edu/"><img hspace="2" src="http://localhost:4000/Resources/upf_logo.png"
+                        style="height: 30px; margin: 4px;" alt="UPF logo"></a>
+                <a href="http://www.cit.tu-berlin.de"><img hspace="2" src="http://localhost:4000/Resources/tu_logo.png"
+                        style="height: 30px; margin: 4px;" alt="TU Berlin logo"></a>
+            </p>
+            <!--
+            <p>This project is maintained by <a href="https://github.com/MilkaLichtblau"> Meike Zehlike </a> and <a href="http://github.com/FairnessMeasures">Mohamed Megahed</a></p>
+            -->
+            <p>
+                <small>All content available under a <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0 license</a> unless specified otherwise. 
+                    <script>document.write(new Date().getFullYear())</script>
+                </small>
+            </p>
+        </footer>
+    </div>
+
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101054904-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+</body>
+</html> 

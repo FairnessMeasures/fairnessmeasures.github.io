@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang=" en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title> Fairness Measures - Detecting Algorithmic Discrimination</title>
+
+    <link rel="stylesheet"
+          href="/assets/css/style.css?v=638069990a084005bd9f64127b5b8efbb7ab2e4c">
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="keywords"
+          content="algorithmic bias, algorithmic fairness, fairness benchmarking, dataset, machine learning, discrimination discovery"/>
+    <meta name="description" content="A Fairness Benchmarking Tool for Machine Learning"/>
+    <meta name="robots" content="index/follow">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="http://localhost:4000">Fairness Measures</a></h1>
+            <p>Datasets and Software for Detecting Algorithmic Discrimination</p>
+
+            <menu style="list-style: none; padding: 0;
+            list-style-type: none;">
+                <p><a href="http://localhost:4000">Home</a></p>
+                <p><a href="http://localhost:4000/Pages/Definitions">Definitions</a></p>
+                <p><a href="http://localhost:4000/Pages/Ranking">Ranking Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Classification">Classification Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Datasets">Datasets</a></p>
+                <p><a href="http://localhost:4000/Pages/Videos">Videos</a></p>
+                <p><a href="https://github.com/FairnessMeasures/fairness-measures-code" target="_blank">Code (on
+                GitHub)</a> &#128279;</p>
+                <p><a href="http://localhost:4000/Pages/About">About</a></p>
+            </menu>
+
+        </header>
+        <section>
+            <img src="http://localhost:4000/Resources/Hero.svg" alt="Header">
+            </br></br></br>
+
+            <h1 id="fair-ranking-algorithms">Fair Ranking Algorithms</h1>
+<p>It is crucial that the decision-making algorithms are fair, that they do not systematically 
+transmit or amplify the already existing biases in today’s society. Researchers in the field of 
+fairness algorithms have provided various possible ranking algorithms. We cite a few examples
+here.</p>
+
+<h2 id="fairsearch-an-open-source-library-for-fairness-notions-in-search">FairSearch: An Open-source Library for Fairness Notions in Search</h2>
+<p>This project constitutes the first <a href="https://github.com/fair-search">fair open source search API</a> to provide fairness notions in ranked search results. It implements two algorithms from the fair ranking literature, namely FA*IR (Zehlike et al., 2017) and DELTR (Zehlike et al.,
+2018). Those are available as stand-alone libraries in Python and Java. Additionally the authors implement interfaces to Elasticsearch for both algorithms. The interfaces enable search engine developers who wish to ensure fair search
+results of different styles to easily integrate DELTR and FA*IR into their existing Elasticsearch environment.</p>
+
+<h2 id="fair-top-k-ranking-algorithm">Fair Top-k Ranking Algorithm</h2>
+<p>Zehlike et al provided an algorithmic solution to the Fair Top-k Ranking problem over a
+single binary type attribute. With respect to the group fairness criteria, they provided
+a greedy algorithm which selects the best k candidates from a large pool while ensuring 
+maximal utility.</p>
+
+<h2 id="designing-fair-ranking-schemes">Designing Fair Ranking Schemes</h2>
+<p>Asudeh et al. have focused on designing fair scoring functions by assigning a weighted 
+sum of numeric attribute values to each item.</p>
+
+<h2 id="fairness-of-exposure-in-rankings">Fairness of Exposure in Rankings</h2>
+<p>Singh and Joachims have proposed a general framework of fairness constraints that employs 
+probabilistic rankings and linear programming, allowing the computation of the utility-
+maximising ranking.</p>
+
+<h2 id="ranking-with-fairness-constraints">Ranking with Fairness Constraints</h2>
+<p>Celis et al. provided a linear time approximation algorithm of the ranking problem in ethical
+data processing.</p>
+
+<h3 id="references">References</h3>
+
+<p>The above described algorithms can be found in following literature:</p>
+
+<p>Zehlike, Meike, Tom Sühr, Carlos Castillo, and Ivan Kitanovski. “<a href="https://arxiv.org/pdf/1905.13134.pdf">FairSearch: A Tool For Fairness in Ranked Search Results.</a>” arXiv preprint arXiv:1905.13134 (2019).</p>
+
+<p>Zehlike, Meike, Gina-Theresa Diehn and Carlos Castillo. “<a href="https://arxiv.org/pdf/1805.08716.pdf">Reducing disparate exposure in ranking: A learning to rank approach.</a>” arXiv preprint arXiv:1805.08716 (2018).</p>
+
+<p>Zehlike, Meike, Francesco Bonchi, Carlos Castillo, Sara Hajian, Mohamed Megahed, and Ricardo Baeza-Yates. “<a href="https://dl.acm.org/citation.cfm?id=3132938">Fa* ir: A fair top-k ranking algorithm.</a>” Proceedings of the 2017 ACM on Conference on Information and Knowledge Management. doi:10.1145/3132847.3132938. 
+<a href="Files/bib/Fair.bib">bibtex</a></p>
+
+<p>Asudeh, Abolfazl, H. V. Jagadish, Julia Stoyanovich, and Gautam Das. “<a href="https://arxiv.org/abs/1712.09752">Designing Fair Ranking Schemes</a>.”arXiv preprint arXiv:1712.09752 (2017). <a href="Files/bib/asudeh.bib">bibtex</a></p>
+
+<p>Singh, Ashudeep, and Thorsten Joachims. “<a href="https://arxiv.org/abs/1802.07281">Fairness of Exposure in Rankings</a>.” arXiv preprint arXiv:1802.07281 (2018).<a href="Files/bib/singh.bib">bibtex</a></p>
+
+<p>Celis, L. Elisa, Damian Straszak, and Nisheeth K. Vishnoi. “<a href="https://arxiv.org/abs/1704.06840">Ranking with fairness constraints</a>.” arXiv preprint arXiv:1704.06840 (2017).<a href="Files/bib/celis.bib">bibtex</a></p>
+
+
+
+        </section>
+        <footer>
+            <p>
+                <a href="http://www.upf.edu/"><img hspace="2" src="http://localhost:4000/Resources/upf_logo.png"
+                        style="height: 30px; margin: 4px;" alt="UPF logo"></a>
+                <a href="http://www.cit.tu-berlin.de"><img hspace="2" src="http://localhost:4000/Resources/tu_logo.png"
+                        style="height: 30px; margin: 4px;" alt="TU Berlin logo"></a>
+            </p>
+            <!--
+            <p>This project is maintained by <a href="https://github.com/MilkaLichtblau"> Meike Zehlike </a> and <a href="http://github.com/FairnessMeasures">Mohamed Megahed</a></p>
+            -->
+            <p>
+                <small>All content available under a <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0 license</a> unless specified otherwise. 
+                    <script>document.write(new Date().getFullYear())</script>
+                </small>
+            </p>
+        </footer>
+    </div>
+
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101054904-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+</body>
+</html> 

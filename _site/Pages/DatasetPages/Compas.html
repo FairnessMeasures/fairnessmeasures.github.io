@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang=" en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title> Fairness Measures - Detecting Algorithmic Discrimination</title>
+
+    <link rel="stylesheet"
+          href="/assets/css/style.css?v=638069990a084005bd9f64127b5b8efbb7ab2e4c">
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="keywords"
+          content="algorithmic bias, algorithmic fairness, fairness benchmarking, dataset, machine learning, discrimination discovery"/>
+    <meta name="description" content="A Fairness Benchmarking Tool for Machine Learning"/>
+    <meta name="robots" content="index/follow">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="http://localhost:4000">Fairness Measures</a></h1>
+            <p>Datasets and Software for Detecting Algorithmic Discrimination</p>
+
+            <menu style="list-style: none; padding: 0;
+            list-style-type: none;">
+                <p><a href="http://localhost:4000">Home</a></p>
+                <p><a href="http://localhost:4000/Pages/Definitions">Definitions</a></p>
+                <p><a href="http://localhost:4000/Pages/Ranking">Ranking Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Classification">Classification Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Datasets">Datasets</a></p>
+                <p><a href="http://localhost:4000/Pages/Videos">Videos</a></p>
+                <p><a href="https://github.com/FairnessMeasures/fairness-measures-code" target="_blank">Code (on
+                GitHub)</a> &#128279;</p>
+                <p><a href="http://localhost:4000/Pages/About">About</a></p>
+            </menu>
+
+        </header>
+        <section>
+            <img src="http://localhost:4000/Resources/Hero.svg" alt="Header">
+            </br></br></br>
+
+            <h1 id="compas">COMPAS</h1>
+
+<p>COMPAS is a risk assessment instrument developed by Northpointe Inc. Of the 22 scales it provides, the Recidivism risk and Violent Recidivism risk scales are the most widely used. Scores are calculated using criminal history, jail and prison time, demographics and COMPAS risk scores for defendants from Broward County from 2013 and 2014.</p>
+
+<p><b>Data Types:</b> Multivariate</p>
+
+<p><b>Default Task:</b> Classification</p>
+
+<p><b>Attribute Types:</b> Categorical, Integer, Real</p>
+
+<p><b>Format:</b> csv</p>
+
+<p><b>Number of Entries:</b> 60843</p>
+
+<p><b>Number of Attributes:</b> 28</p>
+
+<p><b>Year:</b> 2016</p>
+
+<p><b>Source:</b> <a href="https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis">ProPublica Data Store</a> - Extracted from Broward County Clerk’s Office, Broward County Sherrif’s Office, Florida Department of Corrections (2013-2014).</p>
+
+<h2 id="attributes">Attributes</h2>
+
+<ul>
+  <li>Person_ID</li>
+  <li>AssessmentID</li>
+  <li>Case_ID</li>
+  <li>Agency_Text</li>
+  <li>LastName</li>
+  <li>FirstName</li>
+  <li>MiddleName</li>
+  <li>Sex_Code_Text</li>
+  <li>Ethnic_Code_Text</li>
+  <li>DateOfBirth</li>
+  <li>ScaleSet_ID</li>
+  <li>ScaleSet</li>
+  <li>AssessmentReason</li>
+  <li>Language</li>
+  <li>LegalStatus</li>
+  <li>CustodyStatus</li>
+  <li>MaritalStatus</li>
+  <li>Screening_Date</li>
+  <li>RecSupervisionLevel</li>
+  <li>RecSupervisionLevelText</li>
+  <li>Scale_ID</li>
+  <li>DisplayText</li>
+  <li>RawScore</li>
+  <li>DecileScore</li>
+  <li>ScoreText</li>
+  <li>AssessmentType</li>
+  <li>IsCompleted</li>
+  <li>IsDeleted</li>
+</ul>
+
+<h2 id="download-link">Download link</h2>
+
+<p><a href="https://github.com/propublica/compas-analysis/">Download</a></p>
+
+<h2 id="reference">Reference</h2>
+
+<p>Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner. How we analyzed the compas recidivism algorithm. 2016. URL https://www.propublica.org/article/ how-we-analyzed-the-compas-recidivism-algorithm.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w"> </span><span class="p">{</span><span class="w">
+ </span><span class="err">@misc{Angwin,</span><span class="w"> </span><span class="err">Larson,</span><span class="w"> </span><span class="err">Mattu:2013</span><span class="w"> </span><span class="err">,</span><span class="w">
+ </span><span class="err">author</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"Angwin, J. and Larson, J. and Mattu, S. and Kirchner, L."</span><span class="err">,</span><span class="w">
+ </span><span class="err">year</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"2016"</span><span class="err">,</span><span class="w">
+ </span><span class="err">title</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"How We Analyzed the COMPAS Recidivism Algorithm"</span><span class="err">,</span><span class="w">
+ </span><span class="err">url</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"https://www.propublica.org/article/ how-we-analyzed-the-compas-recidivism-algorithm"</span><span class="err">,</span><span class="w">
+ </span><span class="err">}</span><span class="w">
+</span></code></pre>
+</div>
+
+
+        </section>
+        <footer>
+            <p>
+                <a href="http://www.upf.edu/"><img hspace="2" src="http://localhost:4000/Resources/upf_logo.png"
+                        style="height: 30px; margin: 4px;" alt="UPF logo"></a>
+                <a href="http://www.cit.tu-berlin.de"><img hspace="2" src="http://localhost:4000/Resources/tu_logo.png"
+                        style="height: 30px; margin: 4px;" alt="TU Berlin logo"></a>
+            </p>
+            <!--
+            <p>This project is maintained by <a href="https://github.com/MilkaLichtblau"> Meike Zehlike </a> and <a href="http://github.com/FairnessMeasures">Mohamed Megahed</a></p>
+            -->
+            <p>
+                <small>All content available under a <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0 license</a> unless specified otherwise. 
+                    <script>document.write(new Date().getFullYear())</script>
+                </small>
+            </p>
+        </footer>
+    </div>
+
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101054904-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+</body>
+</html> 

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang=" en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title> Fairness Measures - Detecting Algorithmic Discrimination</title>
+
+    <link rel="stylesheet"
+          href="/assets/css/style.css?v=638069990a084005bd9f64127b5b8efbb7ab2e4c">
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="keywords"
+          content="algorithmic bias, algorithmic fairness, fairness benchmarking, dataset, machine learning, discrimination discovery"/>
+    <meta name="description" content="A Fairness Benchmarking Tool for Machine Learning"/>
+    <meta name="robots" content="index/follow">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="http://localhost:4000">Fairness Measures</a></h1>
+            <p>Datasets and Software for Detecting Algorithmic Discrimination</p>
+
+            <menu style="list-style: none; padding: 0;
+            list-style-type: none;">
+                <p><a href="http://localhost:4000">Home</a></p>
+                <p><a href="http://localhost:4000/Pages/Definitions">Definitions</a></p>
+                <p><a href="http://localhost:4000/Pages/Ranking">Ranking Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Classification">Classification Algorithms</a></p>
+                <p><a href="http://localhost:4000/Pages/Datasets">Datasets</a></p>
+                <p><a href="http://localhost:4000/Pages/Videos">Videos</a></p>
+                <p><a href="https://github.com/FairnessMeasures/fairness-measures-code" target="_blank">Code (on
+                GitHub)</a> &#128279;</p>
+                <p><a href="http://localhost:4000/Pages/About">About</a></p>
+            </menu>
+
+        </header>
+        <section>
+            <img src="http://localhost:4000/Resources/Hero.svg" alt="Header">
+            </br></br></br>
+
+            <h1 id="statlog-german-credit---schufa">Statlog (German Credit - SCHUFA)</h1>
+
+<p>Several categorial and numerical attributes of 1,000 credit applicants in Germany, including the result of their credit score. <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.doc">Read full description here</a>.</p>
+
+<p><b>Data Types:</b> Multivariate</p>
+
+<p><b>Default Task:</b> Classification</p>
+
+<p><b>Attribute Types:</b> Categorical, Integer</p>
+
+<p><b>Format:</b> csv</p>
+
+<p><b>Number of Entries:</b> 1000</p>
+
+<p><b>Number of Attributes:</b> 20</p>
+
+<p><b>Year:</b> 1994</p>
+
+<p><b>Source:</b> <a href="https://archive.ics.uci.edu/ml/datasets/Statlog+(German+Credit+Data)">UCI Machine Learning Repository</a> - extracted from the German Credit Rating Agency <a href="https://www.schufa.de/en/">SCHUFA</a></p>
+
+<h2 id="attributes">Attributes</h2>
+
+<ul>
+  <li>Status of existing checking account</li>
+  <li>Duration in month</li>
+  <li>Credit history</li>
+  <li>Credit Purpose</li>
+  <li>Credit amount</li>
+  <li>Savings account/bonds</li>
+  <li>Present employment since</li>
+  <li>Personal status and sex</li>
+  <li>Other debtors / guarantors</li>
+  <li>Present residence since</li>
+  <li>Property</li>
+  <li>Age in years</li>
+  <li>Other installment plans</li>
+  <li>Housing</li>
+  <li>Number of existing credits at this bank</li>
+  <li>Job</li>
+  <li>Number of people being liable to provide maintenance for</li>
+  <li>foreign worker</li>
+</ul>
+
+<h2 id="download-link">Download link</h2>
+
+<p><a href="https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/">Download</a> Warning: benchmarking used not on raw data set</p>
+
+<h2 id="reference">Reference</h2>
+
+<p>Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w"> </span><span class="p">{</span><span class="w">
+ </span><span class="err">@misc{Lichman:2013</span><span class="w"> </span><span class="err">,</span><span class="w">
+ </span><span class="err">author</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"M. Lichman"</span><span class="err">,</span><span class="w">
+ </span><span class="err">year</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"2013"</span><span class="err">,</span><span class="w">
+ </span><span class="err">title</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"{UCI} Machine Learning Repository"</span><span class="err">,</span><span class="w">
+ </span><span class="err">url</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"http://archive.ics.uci.edu/ml"</span><span class="err">,</span><span class="w">
+ </span><span class="err">institution</span><span class="w"> </span><span class="err">=</span><span class="w"> </span><span class="nt">"University of California, Irvine, School of Information and Computer Sciences"</span><span class="w"> </span><span class="err">}</span><span class="w">
+ </span><span class="err">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<p>Please refer to the <a href="https://archive.ics.uci.edu/ml/citation_policy.html">Machine Learning Repository</a> for further citation requirements.</p>
+
+
+        </section>
+        <footer>
+            <p>
+                <a href="http://www.upf.edu/"><img hspace="2" src="http://localhost:4000/Resources/upf_logo.png"
+                        style="height: 30px; margin: 4px;" alt="UPF logo"></a>
+                <a href="http://www.cit.tu-berlin.de"><img hspace="2" src="http://localhost:4000/Resources/tu_logo.png"
+                        style="height: 30px; margin: 4px;" alt="TU Berlin logo"></a>
+            </p>
+            <!--
+            <p>This project is maintained by <a href="https://github.com/MilkaLichtblau"> Meike Zehlike </a> and <a href="http://github.com/FairnessMeasures">Mohamed Megahed</a></p>
+            -->
+            <p>
+                <small>All content available under a <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0 license</a> unless specified otherwise. 
+                    <script>document.write(new Date().getFullYear())</script>
+                </small>
+            </p>
+        </footer>
+    </div>
+
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101054904-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+</body>
+</html> 
